@@ -1,8 +1,16 @@
-import React, { Component, Children } from 'react';
+import React, { Component, Children, PropTypes } from 'react';
 
 export default class extends Component {
+    props: {
+        shouldUpdate: boolean
+    };
+
+    static propTypes = {
+        shouldUpdate: PropTypes.bool.isRequired
+    };
+
     shouldComponentUpdate(nextProps) {
-        return !!nextProps.shouldUpdate;
+        return nextProps.shouldUpdate;
     }
 
     render() {
