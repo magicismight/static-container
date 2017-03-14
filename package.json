@@ -1,6 +1,6 @@
 {
-    "version": "1.0.0-rc1",
-    "name": "StaticContainer",
+    "version": "1.0.0",
+    "name": "static-container",
     "repository": {
         "type": "git",
         "url": "git@github.com:magicismight/StaticContainer.git"
