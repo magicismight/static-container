@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0-rc1",
+    "name": "StaticContainer",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:magicismight/StaticContainer.git"
+    },
+    "license": "MIT",
+    "main": "./StaticContainer",
+    "description": "react StaticContainer",
+    "keywords": [
+        "react-component",
+        "ios",
+        "android"
+    ]
+}
