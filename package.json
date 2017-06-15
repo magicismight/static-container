@@ -12,5 +12,8 @@
         "react-component",
         "ios",
         "android"
-    ]
+    ],
+    "peerDependencies": {
+        "prop-types": "^15.5.10"
+    }
 }
