@@ -4,4 +4,4 @@ export interface StaticContainerProps {
   shouldUpdate: boolean
 }
 
-export default class Component<StaticContainerProps> {};
+export default class extends Component<StaticContainerProps> {};
