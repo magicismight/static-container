@@ -1,7 +1,7 @@
 import { Component } from 'react';
 
 export interface StaticContainerProps {
-  shouldUpdate: boolean
+  shouldUpdate: boolean;
 }
 
-export default class extends Component<StaticContainerProps> {};
+export default class extends Component<StaticContainerProps> {}
