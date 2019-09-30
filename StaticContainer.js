@@ -1,4 +1,4 @@
-import React, { Component, Children } from 'react';
+import { Component, Children } from 'react';
 import PropTypes from 'prop-types';
 
 export default class extends Component {
@@ -14,5 +14,4 @@ export default class extends Component {
         const child = this.props.children;
         return (child === null || child === false) ? null : Children.only(child);
     }
-
 }
