@@ -1,16 +1,11 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import { Component, Fragment, createElement } from "react";
 
 export default class extends Component {
-  static propTypes = {
-    shouldUpdate: PropTypes.bool.isRequired,
-  };
-
   shouldComponentUpdate(nextProps) {
     return nextProps.shouldUpdate;
   }
 
   render() {
-    return <>{this.props.children}</>;
+    return createElement(Fragment, null, this.props.children);
   }
 }
