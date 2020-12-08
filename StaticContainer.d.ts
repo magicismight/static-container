@@ -1,7 +1,11 @@
-import { Component } from 'react';
+import { ComponentType, ReactNode } from 'react';
 
 export interface StaticContainerProps {
   shouldUpdate: boolean;
+  children: ReactNode;
 }
 
-export default class extends Component<StaticContainerProps> {}
+const StaticContainer: ComponentType<StaticContainerProps>;
+type StaticContainer = ComponentType<StaticContainerProps>;
+
+export default StaticContainer;

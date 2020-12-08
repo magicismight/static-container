@@ -1,19 +1,16 @@
 {
-    "version": "1.5.1",
-    "name": "static-container",
-    "repository": {
-        "type": "git",
-        "url": "git@github.com:magicismight/StaticContainer.git"
-    },
-    "license": "MIT",
-    "main": "./StaticContainer",
-    "description": "react StaticContainer",
-    "keywords": [
-        "react-component",
-        "static-container",
-        "performance"
-    ],
-    "peerDependencies": {
-        "prop-types": "^15.5.10"
-    }
+  "version": "1.5.1",
+  "name": "static-container",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:magicismight/StaticContainer.git"
+  },
+  "license": "MIT",
+  "main": "./StaticContainer",
+  "description": "react StaticContainer",
+  "keywords": [
+    "react-component",
+    "static-container",
+    "performance"
+  ]
 }
