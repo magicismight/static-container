@@ -5,7 +5,7 @@ export interface StaticContainerProps {
   children: ReactNode;
 }
 
-const StaticContainer: ComponentType<StaticContainerProps>;
+declare const StaticContainer: ComponentType<StaticContainerProps>;
 type StaticContainer = ComponentType<StaticContainerProps>;
 
 export default StaticContainer;
